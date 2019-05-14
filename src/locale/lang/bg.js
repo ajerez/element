@@ -16,6 +16,10 @@ export default {
       startTime: 'Начален час',
       endDate: 'Крайна дата',
       endTime: 'Краен час',
+      prevYear: 'Previous Year', // to be translated
+      nextYear: 'Next Year', // to be translated
+      prevMonth: 'Previous Month', // to be translated
+      nextMonth: 'Next Month', // to be translated
       year: '',
       month1: 'Януари',
       month2: 'Февруари',
@@ -78,6 +82,7 @@ export default {
       error: 'Невалидни данни'
     },
     upload: {
+      deleteTip: 'press delete to remove', // to be translated
       delete: 'Изтрий',
       preview: 'Прегледай',
       continue: 'Продължи'
@@ -99,6 +104,9 @@ export default {
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
       hasCheckedFormat: '{checked}/{total} checked' // to be translated
+    },
+    image: {
+      error: 'FAILED' // to be translated
     }
   }
 };

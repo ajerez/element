@@ -16,6 +16,10 @@ export default {
       startTime: 'Start Tidspunkt',
       endDate: 'Sluttdato',
       endTime: 'Sluttidspunkt',
+      prevYear: 'Previous Year', // to be translated
+      nextYear: 'Next Year', // to be translated
+      prevMonth: 'Previous Month', // to be translated
+      nextMonth: 'Next Month', // to be translated
       year: '',
       month1: 'Januar',
       month2: 'Februar',
@@ -77,6 +81,7 @@ export default {
       error: 'Ugyldig input'
     },
     upload: {
+      deleteTip: 'press delete to remove', // to be translated
       delete: 'Slett',
       preview: 'Forhåndsvisning',
       continue: 'Fortsett'
@@ -98,6 +103,9 @@ export default {
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
       hasCheckedFormat: '{checked}/{total} checked' // to be translated
+    },
+    image: {
+      error: 'FAILED' // to be translated
     }
   }
 };

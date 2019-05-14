@@ -16,6 +16,10 @@ export default {
       startTime: 'Hora Inici',
       endDate: 'Data Final',
       endTime: 'Hora Final',
+      prevYear: 'Any anterior',
+      nextYear: 'Pròxim Any',
+      prevMonth: 'Mes anterior',
+      nextMonth: 'Pròxim Mes',
       year: 'Any',
       month1: 'Gener',
       month2: 'Febrer',
@@ -77,6 +81,7 @@ export default {
       error: 'Entrada invàlida'
     },
     upload: {
+      deleteTip: 'premi eliminar per descartar',
       delete: 'Eliminar',
       preview: 'Vista Prèvia',
       continue: 'Continuar'
@@ -98,6 +103,9 @@ export default {
       filterPlaceholder: 'Introdueix la paraula clau',
       noCheckedFormat: '{total} ítems',
       hasCheckedFormat: '{checked}/{total} seleccionats'
+    },
+    image: {
+      error: 'FAILED' // to be translated
     }
   }
 };

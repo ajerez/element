@@ -16,7 +16,11 @@ export default {
       startTime: 'Hora Inicial',
       endDate: 'Fecha Final',
       endTime: 'Hora Final',
-      year: 'Año',
+      prevYear: 'Año Anterior',
+      nextYear: 'Próximo Año',
+      prevMonth: 'Mes Anterior',
+      nextMonth: 'Próximo Mes',
+      year: '',
       month1: 'enero',
       month2: 'febrero',
       month3: 'marzo',
@@ -77,6 +81,7 @@ export default {
       error: 'Entrada inválida'
     },
     upload: {
+      deleteTip: 'Pulse Eliminar para retirar',
       delete: 'Eliminar',
       preview: 'Vista Previa',
       continue: 'Continuar'
@@ -98,6 +103,9 @@ export default {
       filterPlaceholder: 'Ingresar palabra clave',
       noCheckedFormat: '{total} artículos',
       hasCheckedFormat: '{checked}/{total} revisados'
+    },
+    image: {
+      error: 'FAILED' // to be translated
     }
   }
 };
